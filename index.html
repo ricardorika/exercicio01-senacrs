@@ -53,59 +53,31 @@
 					<li class="item">Feminino</li>
 				</ul>
 				<div class="size-filter">
-					<ul><h4>Tamanho</h4></ul>
+					<h4>Tamanho</h4>
+					<form>
 						<select name="size" multiple="multiple">
-							<option value="G2">G2</optio>
-						</select>
-						<select name="size" multiple="multiple">
+							<option value="G2">G2</option>
 							<option value="G3">G3</option>
-						</select>
-						<select name="size" multiple="multiple">
 							<option value="9/12">9/12M</option>
-						</select>
-						<select name="size" multiple="multiple">
 							<option value="G4">G4</option>
+							<option value="G1">G1</option>
+							<option value="MP">MP</option>
+							<option value="P">P</option>
+							<option value="M">M</option>
+							<option value="G">G</option>
+							<option value="GG">GG</option>
+							<option value="XG">XG</option>
+							<option value="EGG">EGG</option>
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
 						</select>
-						<select name="size" multiple="multiple">
-							<option value="G1">G1<option>
-						</select>
-						<select name="size" multiple="multiple">
-							<option value="MP">MP<option>
-						</select>
-						<select name="size" multiple="multiple">
-							<option value="P">P<option>
-						</select>
-						<select name="size" multiple="multiple">
-							<option value="M">M<option>
-						</select>
-						<select name="size" multiple="multiple">
-							<option value="G">G<option>
-						</select>
-						<select name="size" multiple="multiple">
-							<option value="GG">GG<option>
-						</select>
-						<select name="size" multiple="multiple">
-							<option value="XG">XG<option>
-						</select>
-						<select name="size" multiple="multiple">
-							<option value="EGG">EGG<option>
-						</select>
-						<select name="size" multiple="multiple">
-							<option value="1">1<option>
-						</select>
-						<select name="size" multiple="multiple">
-							<option value="2">2<option>
-						</select>
-						<select name="size" multiple="multiple">
-							<option value="3">3<option>
-						</select>
-						<select name="size" multiple="multiple">
-							<option value="4">4<option>
-						</select>
+					</form>
 				</div>
 				<div class="brand-filter">
-					<ul><h4>Marca</h4></ul>
-						<form>
+					<h4>Marca</h4>
+					<form>
 						<select name="size" multiple="multiple">
 							<option value="Amaro">AMARO</option>
 							<option value="Abusy">Abusy</option>
@@ -115,12 +87,12 @@
 							<option value="Acrobat">Acrobat</option>
 							<option value="Acrobat">Acrobat</option>
 						</select>
-						</form>
+					</form>
 				</div>
 				<div class="price-filter">
-					<ul><h4>Preço</h4></ul>
-						<form>
-							<select name="size" multiple="multiple">
+					<h4>Preço</h4>
+					<form>
+						<select name="size" multiple="multiple">
 							<option value="price1060">R$ 10 - R$ 60</option>
 							<option value="price6090">R$ 60 - R$ 90</option>
 							<option value="price90110">R$ 90 - R$ 110</option>
@@ -128,23 +100,43 @@
 							<option value="price170230">R$ 170 - R$ 230</option>
 							<option value="price230750">R$ 230 - R$ 750</option>
 						</select>
-						</form>
+					</form>
 				</div>
-				<div class="colour-filter">
-					<ul><h4>Cor</h4></ul>
-					<img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/fb/Yellow_icon.svg/1024px-Yellow_icon.svg.png" class="yellow">
-						<form>
-						<select name="size" multiple="multiple">
-							<option value="colour1">
-							Amarelo</option>
-							<option value="colour2">Amarelo Claro</option>
-							<option value="colour3">Amarelo Fluorescente</option>
-							<option value="colour4">Areia</option>
-							<option value="colour5">Azul</option>
-							<option value="colour6">Azul Claro</option>
-						</select>
-						</form>
-				</div>		
+				<div class="color-filter">
+					<h4>Cor</h4>
+					<form>
+						<ul>
+							<li class="color-yellow">
+								<label><input type="checkbox"/>Amarelo</label>
+							</li>
+							<li class="color-red">
+								<label><input type="checkbox"/>Vermelho</label>
+							</li>
+							<li class="color-green">
+								<label><input type="checkbox"/>Verde</label>
+							</li>
+							<li class="color-orange">
+								<label><input type="checkbox"/>Laranja</label>
+							</li>
+							<li class="color-grey">
+								<label><input type="checkbox"/>Cinza</label>
+							</li>
+						</ul>
+					</form>
+				</div>
+				<div class="genre-filter">
+					<h4>Genero</h4>
+					<form>
+							<ul>
+								<li class="genre-male'">
+									<label><input type="radio" name="genre" /> Masculino</label>
+								</li>
+								<li class="genre-female'">
+									<label><input type="radio" name="genre" /> Feminino</label>
+								</li>
+							</ul>
+					</form>
+				</div>
 				<!--<div class="female">
 					<a>Feminino</a>
   					<input type="checkbox" checked="checked">
@@ -154,37 +146,29 @@
 			</div>-->
 			</div>
 			<div class="content float-left">
-				<div class="item01">
+				<div class="items 01">
         			<a href="#">
-						<img src="https://static.netshoes.com.br/produtos/calca-legging-kaisan-scrawl-feminina/31/KSZ-0020-931/KSZ-0020-931_detalhe1.jpg" 
-						onmouseover="this.src='https://static.netshoes.com.br/produtos/calca-legging-kaisan-scrawl-feminina/31/KSZ-0020-931/KSZ-0020-931_detalhe2.jpg'"
-						onmouseout="this.src='https://static.netshoes.com.br/produtos/calca-legging-kaisan-scrawl-feminina/31/KSZ-0020-931/KSZ-0020-931_detalhe1.jpg'"
-						border="0" alt="Calças"/>
+						<img class="over" src="https://static.netshoes.com.br/produtos/calca-legging-kaisan-scrawl-feminina/31/KSZ-0020-931/KSZ-0020-931_detalhe2.jpg" />
+						<img src="https://static.netshoes.com.br/produtos/calca-legging-kaisan-scrawl-feminina/31/KSZ-0020-931/KSZ-0020-931_detalhe1.jpg"/>
 						<!--<div class="caption">Calça Legging Kaisan Scrawl Feminina</div>-->
 					</a>
 				</div>	
-				<div class="item02">
+				<div class="items 02">
         			<a href="#">
-						<img src="https://static.netshoes.com.br/produtos/calca-legging-kaisan-scrawl-feminina/31/KSZ-0020-931/KSZ-0020-931_detalhe1.jpg" 
-						onmouseover="this.src='https://static.netshoes.com.br/produtos/calca-legging-kaisan-scrawl-feminina/31/KSZ-0020-931/KSZ-0020-931_detalhe2.jpg'"
-						onmouseout="this.src='https://static.netshoes.com.br/produtos/calca-legging-kaisan-scrawl-feminina/31/KSZ-0020-931/KSZ-0020-931_detalhe1.jpg'"
-						border="0" alt="Calças"/>
+						<img class="over" src="https://static.netshoes.com.br/produtos/calca-legging-kaisan-scrawl-feminina/31/KSZ-0020-931/KSZ-0020-931_detalhe2.jpg" />
+						<img src="https://static.netshoes.com.br/produtos/calca-legging-kaisan-scrawl-feminina/31/KSZ-0020-931/KSZ-0020-931_detalhe1.jpg"/>
 					</a>
 				</div>
-				<div class="item03">
+				<div class="items 03">
         			<a href="#">
-						<img src="https://static.netshoes.com.br/produtos/calca-legging-kaisan-scrawl-feminina/31/KSZ-0020-931/KSZ-0020-931_detalhe1.jpg" 
-						onmouseover="this.src='https://static.netshoes.com.br/produtos/calca-legging-kaisan-scrawl-feminina/31/KSZ-0020-931/KSZ-0020-931_detalhe2.jpg'"
-						onmouseout="this.src='https://static.netshoes.com.br/produtos/calca-legging-kaisan-scrawl-feminina/31/KSZ-0020-931/KSZ-0020-931_detalhe1.jpg'"
-						border="0" alt="Calças"/>
+						<img class="over" src="https://static.netshoes.com.br/produtos/calca-legging-kaisan-scrawl-feminina/31/KSZ-0020-931/KSZ-0020-931_detalhe2.jpg" />
+						<img src="https://static.netshoes.com.br/produtos/calca-legging-kaisan-scrawl-feminina/31/KSZ-0020-931/KSZ-0020-931_detalhe1.jpg"/>
 					</a>
 				</div>
-				<div class="item04">
+				<div class="items 04">
         			<a href="#">
-						<img src="https://static.netshoes.com.br/produtos/calca-legging-kaisan-scrawl-feminina/31/KSZ-0020-931/KSZ-0020-931_detalhe1.jpg" 
-						onmouseover="this.src='https://static.netshoes.com.br/produtos/calca-legging-kaisan-scrawl-feminina/31/KSZ-0020-931/KSZ-0020-931_detalhe2.jpg'"
-						onmouseout="this.src='https://static.netshoes.com.br/produtos/calca-legging-kaisan-scrawl-feminina/31/KSZ-0020-931/KSZ-0020-931_detalhe1.jpg'"
-						border="0" alt="Calças"/>
+						<img class="over" src="https://static.netshoes.com.br/produtos/calca-legging-kaisan-scrawl-feminina/31/KSZ-0020-931/KSZ-0020-931_detalhe2.jpg" />
+						<img src="https://static.netshoes.com.br/produtos/calca-legging-kaisan-scrawl-feminina/31/KSZ-0020-931/KSZ-0020-931_detalhe1.jpg"/>
 					</a>
 				</div>		
 			</div>
@@ -194,5 +178,3 @@
 
 </body>
 </html>
-<!-- OIOIOIOIOI-->
-<!--#364 Adicionei o botão de login e arrumei o bug do carrinho-->	

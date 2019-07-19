@@ -401,6 +401,173 @@ div.content .items a:hover img.over {
   display: block;
   opacity: 1;
 }
+.n-block  {
+	display: block;
+    height: auto;
+    overflow: hidden;
+}
+
+.caption  {
+    font-size:20px;
+    font-weight: 400;
+    text-transform: none;
+    display: table-cell;
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+    vertical-align: middle;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.pricetable  {
+	text-align: left;
+    padding: 0;
+}
+.badges-items  {
+	margin-bottom: 5px;
+}
+.badges-list {
+	bottom: 0;
+    position: relative;
+}
+.badge-item  {
+	background: #38A9DE;
+    color: #FFFFFF;
+    border-color: #38A9DE;
+    width:150px;
+    text-align: center;
+    opacity: 1;
+}
+.badge-item :hover {
+	opacity: 2;
+
+
+}
+.price-list {
+	text-decoration: none;
+}
+.price-list::after {
+	box-sizing: inherit;
+}
+.price-list::before {
+	box-sizing: inherit;
+}
+.a8990{
+	position: relative;
+    top: -2px;
+    color: #8c8c8c;
+    font-size: 15px;
+    display: inline-block;
+    text-decoration: line-through;
+}
+
+.fullprice {
+	font-size: 14px;
+    font-weight: 700;
+    color: #13abe1;
+    line-height: 1.2;
+    margin-left: 5px;
+    display: inline-block;
+}
+.finalprice {
+	padding: 5px 0 0 0;
+    color: #13abe1;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    background-color: #fff;
+    position: relative;
+    width: 100%;
+    margin: 0;
+}
+.space {
+	text-align: left;
+    padding: 0;
+    margin-top: 15px;
+}
+.similar {
+	height: 18px;
+    font-size: .875em;
+    font-weight: 400;
+    line-height: 18px;
+    text-decoration: none;
+    color: #666;
+    cursor: pointer;
+}
+.flag {
+	position: absolute;
+    top: 0;
+    left: 10px;
+    right: 0;
+	text-decoration: none;
+	outline: 0;
+    font-family: sans-serif;
+    font-weight: 400;
+    text-align: center;
+    display: table;
+    width: auto;
+    list-style: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    padding: 0;
+    margin: 0;
+    text-transform: none;
+
+}	
+.flag-text {
+	position: absolute;
+  width: 34px;
+  height: 24px;
+  background-color: #cc0000;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  text-align: center;
+  line-height: 25px;
+  top: 5px;
+  left: 5px;
+  z-index: 4;
+   
+}
+.flag-text::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 17px solid transparent;
+  border-right: 17px solid transparent;
+  border-top: 17px solid #cc0000;
+  left: 0;
+  bottom: -17px;
+}
+
+.btn-quick-view  {
+	color: #00aae0;
+    border-color: #00aae0;
+    border-width: 1px;
+    border-style: solid;
+    background: #fff;
+    font-size: 15px;
+    padding: 6px 15px;
+    font-weight: 600;
+    width: 185px;
+    text-align: center;
+    left: 50%;
+    margin-left: -92.5px;
+    position: absolute;
+    bottom: 120px;
+    cursor: pointer;
+    border-radius: 3px;
+    text-transform: uppercase;
+    outline: 0;
+    visibility: hidden;
+}
+
+.btn-quick-view::hover {
+	visibility: visible;
+}
 
 @media (max-width: 400px) {
   div.sidebar {
